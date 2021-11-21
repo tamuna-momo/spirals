@@ -1,0 +1,109 @@
+body {
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(121, 10, 78);
+    
+}
+img{
+   border-radius: 50%;
+   width: 55%;
+   height: 50%;
+}
+
+.container {
+    background-color: rgb(243, 122, 182);
+    width:340px;
+    height:340px;
+    -webkit-animation-name: spin; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 2s; 
+    
+}
+.container{ 
+    position: absolute;
+    top: 30%;
+    left: 70%;
+
+}
+.container-2{
+    background-color: rgb(192, 72, 152);
+    width:240px;
+    height:140px;
+    -webkit-animation-name: spin; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 4s; 
+    
+}
+.container-2{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+     
+}
+.container-3{
+    background-color: rgb(148, 47, 179);
+    width:240px;
+    height:180px;
+    -webkit-animation-name: spin; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 4.5s; 
+    
+}
+.container-3{
+    position: absolute;
+    bottom: 15%;
+    left: 53%
+}
+
+.spiral1,.spiral2,.spiral3,.spiral4 {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 207, 235);
+}
+.spiral1 {
+    left: 0;
+    top: 0;
+    border-left: none;
+    border-top: none;
+    background-color: rgb(241, 111, 111);
+}
+
+.spiral2 {
+    left: 0;
+    bottom: 0;
+    border-left: none;
+    border-bottom: none;
+}
+
+.spiral3 {
+    right: 0;
+    bottom: 0;
+    border-right: none;
+    border-bottom: none;
+    background-color: rgb(62, 64, 145);
+}
+
+.spiral4 {
+    right: 0;
+    top: 0;
+    border-right: none;
+    border-top: none;
+}
+
+div {
+    border-radius: 100%;
+}
+@-webkit-keyframes spin {  
+from {  
+    -webkit-transform: rotate(0deg);  
+}  
+to {  
+    -webkit-transform: rotate(360deg);  
+    } 
+}
